@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000000;
+}
+
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+
+}
+
+#nav img{
+    height: 60px;
+}
+
+
+#nleft, #nright {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#nleft a {
+    pointer-events: all;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+#nright a {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+#hero {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate( 0%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+#heroleft {
+    width: 50%;
+
+}
+
+#heroleft #elem h1{
+
+font-family: "kajiro";
+color: #fff;
+font-weight: 100;
+font-size: 11vw;
+
+}
+
+#heroleft #elem {
+    overflow: hidden;
+    height: 10vw;
+}
+
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    color: white;
+}
+
+#heroleft button{
+    pointer-events: all;
+    padding: 1vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+#heroright p {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#heroright #imagediv {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 170px;
+    background-image: url(/Images/img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 100px;
+
+}
